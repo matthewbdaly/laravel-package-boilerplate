@@ -34,7 +34,7 @@
         "laravel": {
             "providers": [
                 "Matthewbdaly\\LaravelPackageBoilerplate\\ServiceProvider"
-            }
+            ]
         }
     }
 }
