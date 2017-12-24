@@ -8,13 +8,13 @@ class TestCase extends BaseTestCase
 {
 	protected function getPackageProviders($app)
 	{
-		return ['Matthewbdaly\LaravelSMS\LaravelSMSProvider'];
+		return ['Matthewbdaly\LaravelPackageBoilerplate\ServiceProvider'];
 	}
 
 	protected function getPackageAliases($app)
 	{
 		return [
-			'SMS' => 'Matthewbdaly\LaravelSMS\Facade'
+			'Facade' => 'Matthewbdaly\LaravelPackageBoilerplate\Facade'
 		];
 	}
 }

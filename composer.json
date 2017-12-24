@@ -3,9 +3,6 @@
     "description": "Starting boilerplate for Laravel packages. Override the content in here when creating your own package",
     "type": "library",
     "keywords": ["laravel","lumen"],
-    "require": {
-        "matthewbdaly/laravel-package-boilerplate": "^1.0"
-    },
     "require-dev": {
         "orchestra/testbench": "3.5",
         "phpunit/phpunit": "^6.3",
