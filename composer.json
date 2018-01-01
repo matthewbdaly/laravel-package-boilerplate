@@ -3,6 +3,7 @@
     "description": "Starting boilerplate for Laravel packages. Override the content in here when creating your own package",
     "type": "library",
     "keywords": ["laravel","lumen"],
+    "require": {},
     "require-dev": {
         "orchestra/testbench": "3.5",
         "phpunit/phpunit": "^6.3",
@@ -30,7 +31,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Matthewbdaly\\LaravelPackageBoilerplate\\ServiceProvider"
+                "Matthewbdaly\\LaravelPackageBoilerplate\\Providers\\ServiceProvider"
             ]
         }
     }
