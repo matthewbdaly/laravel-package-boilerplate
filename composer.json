@@ -10,14 +10,8 @@
         "mockery/mockery": "^0.9.9",
         "squizlabs/php_codesniffer": "^3.1",
         "psy/psysh": "^0.8.11",
-        "matthewbdaly/artisan-standalone": "dev-master"
+        "matthewbdaly/artisan-standalone": "^0.0.1"
     },
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/matthewbdaly/artisan-standalone"
-        }
-    ],
     "license": "MIT",
     "authors": [
         {
