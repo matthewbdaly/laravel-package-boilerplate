@@ -33,7 +33,9 @@
         "post-create-project-cmd": [
             "php -r \"mkdir('bootstrap');\"",
             "php -r \"mkdir('bootstrap'.DIRECTORY_SEPARATOR.'cache');\"",
-            "php -r \"mkdir('src'.DIRECTORY_SEPARATOR.'Http');\""
+            "php -r \"mkdir('src'.DIRECTORY_SEPARATOR.'Http');\"",
+            "php -r \"mkdir('src'.DIRECTORY_SEPARATOR.'Http'.DIRECTORY_SEPARATOR.'Controllers');\"",
+            "php -r \"mkdir('src'.DIRECTORY_SEPARATOR.'Http'.DIRECTORY_SEPARATOR.'Middleware');\""
         ]
     },
     "config": {
