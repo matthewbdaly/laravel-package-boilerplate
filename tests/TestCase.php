@@ -4,6 +4,7 @@ namespace Tests;
 
 use Orchestra\Testbench\TestCase as BaseTestCase;
 use Mockery\Adapter\Phpunit\MockeryPHPUnitIntegration;
+use Hash;
 
 class TestCase extends BaseTestCase
 {
@@ -20,4 +21,20 @@ class TestCase extends BaseTestCase
 			'Facade' => 'Matthewbdaly\LaravelPackageBoilerplate\Facade'
 		];
 	}
+
+    /**
+     * Creates the application.
+     *
+     * Needs to be implemented by subclasses.
+     *
+     * @return \Illuminate\Foundation\Application
+     */
+    public function createApplication()
+    {
+        $app = parent::createApplication();
+
+        Hash::setRounds(4);
+
+        return $app;
+    }
 }
