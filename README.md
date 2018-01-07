@@ -17,4 +17,4 @@ How do I use it?
 composer create-project matthewbdaly/laravel-package-boilerplate <YOUR_NEW_PACKAGE_DIRECTORY>
 ```
 
-This will generate a starting boilerplate for your app. You'll want to update your `composer.json` with your required namespace and other details.
+This will generate a starting boilerplate for your app. You'll want to update your `composer.json` with your required namespace and other details - you can do this by running `vendor\bin\artisan app:name`.
