@@ -18,6 +18,9 @@ class ServiceProvider extends BaseServiceProvider
     {
         $this->loadMigrationsFrom(__DIR__.'/../database/migrations');
         $this->loadViewsFrom(__DIR__.'/../views', 'packagename');
+        $this->publishes([
+            __DIR__.'/../views', resource_path('views/vendor/packagename')
+        ]);
     }
 
     /**
