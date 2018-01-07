@@ -1,6 +1,6 @@
 <?php
 
-namespace Matthewbdaly/LaravelAdmin\Providers;
+namespace Matthewbdaly\LaravelPackageBoilerplate\Providers;
 
 use Illuminate\Support\ServiceProvider as BaseServiceProvider;
 
