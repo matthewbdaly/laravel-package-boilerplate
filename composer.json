@@ -21,7 +21,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Matthewbdaly\\LaravelPackageBoilerplate\\": "src/"
+            "Matthewbdaly/LaravelAdmin\\": "src/"
         }
     },
     "autoload-dev": {
@@ -46,7 +46,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Matthewbdaly\\LaravelPackageBoilerplate\\Providers\\ServiceProvider"
+                "Matthewbdaly/LaravelAdmin\\Providers\\ServiceProvider"
             ]
         }
     }
