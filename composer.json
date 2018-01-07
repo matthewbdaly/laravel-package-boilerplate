@@ -21,7 +21,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Matthewbdaly/LaravelAdmin\\": "src/"
+            "Foo\\": "src/"
         }
     },
     "autoload-dev": {
@@ -35,7 +35,9 @@
             "php -r \"mkdir('bootstrap'.DIRECTORY_SEPARATOR.'cache');\"",
             "php -r \"mkdir('src'.DIRECTORY_SEPARATOR.'Http');\"",
             "php -r \"mkdir('src'.DIRECTORY_SEPARATOR.'Http'.DIRECTORY_SEPARATOR.'Controllers');\"",
-            "php -r \"mkdir('src'.DIRECTORY_SEPARATOR.'Http'.DIRECTORY_SEPARATOR.'Middleware');\""
+            "php -r \"mkdir('src'.DIRECTORY_SEPARATOR.'Http'.DIRECTORY_SEPARATOR.'Middleware');\"",
+            "php -r \"mkdir('src'.DIRECTORY_SEPARATOR.'database'.DIRECTORY_SEPARATOR.'factories');\"",
+            "php -r \"mkdir('src'.DIRECTORY_SEPARATOR.'database'.DIRECTORY_SEPARATOR.'migrations');\""
         ]
     },
     "config": {
@@ -46,7 +48,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Matthewbdaly/LaravelAdmin\\Providers\\ServiceProvider"
+                "Foo\\Providers\\ServiceProvider"
             ]
         }
     }
