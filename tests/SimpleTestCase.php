@@ -3,8 +3,9 @@
 namespace Tests;
 
 use Mockery\Adapter\Phpunit\MockeryPHPUnitIntegration;
+use PHPUnit\Framework\TestCase as BaseTestCase;
 
-class SimpleTestCase extends PHPUnit\Framework\TestCase
+class SimpleTestCase extends BaseTestCase
 {
     use MockeryPHPUnitIntegration;
 }
