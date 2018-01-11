@@ -9,4 +9,6 @@ use Hash;
 class BrowserKitTestCase extends BaseTestCase
 {
     use CreatesApplication, MockeryPHPUnitIntegration;
+
+    public $baseUrl = 'http://localhost';
 }
