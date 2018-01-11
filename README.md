@@ -18,3 +18,12 @@ composer create-project matthewbdaly/laravel-package-boilerplate <YOUR_NEW_PACKA
 ```
 
 This will generate a starting boilerplate for your app. You'll want to update your `composer.json` with your required namespace and other details - you can do this by running `vendor\bin\artisan app:name`.
+
+Test cases
+----------
+
+The package includes three test cases:
+
+* `TestCase` - Effectively the normal Laravel test case. Use it the same way you would your normal Laravel test case
+* `SimpleTestCase` - Extends the default PHPUnit test case, so it doesn't set up a Laravel application, making it quicker and well-suited to properly isolated unit tests
+* `BrowserKitTestCase` - Sets up BrowserKit
