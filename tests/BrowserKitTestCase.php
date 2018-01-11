@@ -2,10 +2,11 @@
 
 namespace Tests;
 
-use Orchestra\Testbench\TestCase as BaseTestCase;
+use Orchestra\Testbench\BrowserKit\TestCase as BaseTestCase;
 use Mockery\Adapter\Phpunit\MockeryPHPUnitIntegration;
+use Hash;
 
-class TestCase extends BaseTestCase
+class BrowserKitTestCase extends BaseTestCase
 {
     use CreatesApplication, MockeryPHPUnitIntegration;
 }
