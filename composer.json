@@ -39,8 +39,6 @@
             "php -r \"mkdir('src'.DIRECTORY_SEPARATOR.'Http');\"",
             "php -r \"mkdir('src'.DIRECTORY_SEPARATOR.'Http'.DIRECTORY_SEPARATOR.'Controllers');\"",
             "php -r \"mkdir('src'.DIRECTORY_SEPARATOR.'Http'.DIRECTORY_SEPARATOR.'Middleware');\"",
-            "php -r \"mkdir('src'.DIRECTORY_SEPARATOR.'database'.DIRECTORY_SEPARATOR.'factories');\"",
-            "php -r \"mkdir('src'.DIRECTORY_SEPARATOR.'database'.DIRECTORY_SEPARATOR.'migrations');\"",
             "php -r \"mkdir('routes');\""
         ]
     },
