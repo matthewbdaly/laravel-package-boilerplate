@@ -12,12 +12,18 @@ vendor/bin/artisan make:model Example
 
 How do I use it?
 ----------------
-
+###### Step 1
 ```bash
 composer create-project matthewbdaly/laravel-package-boilerplate <YOUR_NEW_PACKAGE_DIRECTORY>
 ```
 
-This will generate a starting boilerplate for your app. You'll want to update your `composer.json` with your required namespace and other details - you can do this by running `vendor\bin\artisan app:name`.
+This will generate a starting boilerplate for your app.
+
+###### Step 2
+You'll want to update your `composer.json` with your required namespace and other details - you can do this by running
+```bash
+ vendor/bin/artisan app:name InsertYourProjectNameHere
+ ```
 
 Test cases
 ----------
