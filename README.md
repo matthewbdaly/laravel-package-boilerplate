@@ -7,7 +7,7 @@ Includes PHPUnit and PHPCodeSniffer configuration, as well as a known good Travi
 Also includes my [Artisan Standalone](https://github.com/matthewbdaly/artisan-standalone) package as a development dependency. As a result, you should be able to run Artisan commands as follows:
 
 ```bash
-php vendor/bin/artisan make:model Example
+vendor/bin/artisan make:model Example
 ```
 
 How do I use it?
@@ -22,7 +22,7 @@ This will generate a starting boilerplate for your app.
 ###### Step 2
 You'll want to update your `composer.json` with your required namespace and other details - you can do this by running
 ```bash
- php vendor\bin\artisan app:name InsertYourProjectNameHere
+ vendor/bin/artisan app:name InsertYourProjectNameHere
  ```
 
 Test cases
