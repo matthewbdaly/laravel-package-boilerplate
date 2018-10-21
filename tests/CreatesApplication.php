@@ -6,17 +6,17 @@ use Hash;
 
 trait CreatesApplication
 {
-	protected function getPackageProviders($app)
-	{
-		return ['Matthewbdaly\LaravelPackageBoilerplate\ServiceProvider'];
-	}
+    protected function getPackageProviders($app)
+    {
+        return ['Matthewbdaly\LaravelPackageBoilerplate\ServiceProvider'];
+    }
 
-	protected function getPackageAliases($app)
-	{
-		return [
-			'Facade' => 'Matthewbdaly\LaravelPackageBoilerplate\Facade'
-		];
-	}
+    protected function getPackageAliases($app)
+    {
+        return [
+            'Facade' => 'Matthewbdaly\LaravelPackageBoilerplate\Facade'
+        ];
+    }
 
     /**
      * Creates the application.

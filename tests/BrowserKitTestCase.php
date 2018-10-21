@@ -6,7 +6,7 @@ use Orchestra\Testbench\BrowserKit\TestCase as BaseTestCase;
 use Mockery\Adapter\Phpunit\MockeryPHPUnitIntegration;
 use Hash;
 
-class BrowserKitTestCase extends BaseTestCase
+abstract class BrowserKitTestCase extends BaseTestCase
 {
     use CreatesApplication, MockeryPHPUnitIntegration;
 
