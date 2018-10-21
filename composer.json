@@ -10,6 +10,7 @@
         "orchestra/testbench": "3.6",
         "orchestra/testbench-browser-kit": "~3.6",
         "php-coveralls/php-coveralls": "^2.1",
+        "phpstan/phpstan": "^0.10.5",
         "phpunit/phpunit": "^7.0",
         "psy/psysh": "^0.9.8",
         "sebastian/phpcpd": "^4.0",
