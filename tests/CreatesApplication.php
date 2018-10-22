@@ -8,13 +8,13 @@ trait CreatesApplication
 {
     protected function getPackageProviders($app)
     {
-        return ['Matthewbdaly\LaravelPackageBoilerplate\ServiceProvider'];
+        return ['Package\ServiceProvider'];
     }
 
     protected function getPackageAliases($app)
     {
         return [
-            'Facade' => 'Matthewbdaly\LaravelPackageBoilerplate\Facade'
+            'Facade' => 'Package\Facade'
         ];
     }
 
