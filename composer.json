@@ -40,7 +40,8 @@
             "php -r \"mkdir('src'.DIRECTORY_SEPARATOR.'Http');\"",
             "php -r \"mkdir('src'.DIRECTORY_SEPARATOR.'Http'.DIRECTORY_SEPARATOR.'Controllers');\"",
             "php -r \"mkdir('src'.DIRECTORY_SEPARATOR.'Http'.DIRECTORY_SEPARATOR.'Middleware');\"",
-            "php -r \"mkdir('routes');\""
+            "php -r \"mkdir('routes');\"",
+            "php -r \"mkdir('storage'.DIRECTORY_SEPARATOR.'framework'.DIRECTORY_SEPARATOR.'views');\""
         ]
     },
     "config": {
