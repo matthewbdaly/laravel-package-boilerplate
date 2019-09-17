@@ -3,7 +3,8 @@
 	<description>Coding standard for Laravel package boilerplate.</description>
 	<file>src</file>
 	<arg value="np"/>
-	<rule ref="PSR2"/>
+	<rule ref="PSR12"/>
+	<rule ref="Generic.Arrays.DisallowLongArraySyntax"/>
 	<rule ref="Squiz.Commenting.FunctionComment" />
 	<rule ref="Squiz.Commenting.FunctionCommentThrowTag" />
 	<rule ref="Squiz.Commenting.ClassComment" />
