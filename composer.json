@@ -7,11 +7,11 @@
     "require-dev": {
         "matthewbdaly/artisan-standalone": "0.0.*",
         "mockery/mockery": "~1.0",
-        "orchestra/testbench": "^3.7",
-        "orchestra/testbench-browser-kit": "^3.7",
+        "orchestra/testbench": "^4.0",
+        "orchestra/testbench-browser-kit": "^4.0",
         "php-coveralls/php-coveralls": "^2.1",
         "phpstan/phpstan": "^0.10.5",
-        "phpunit/phpunit": "^7.0",
+        "phpunit/phpunit": "^8.0",
         "psy/psysh": "^0.9.8",
         "sebastian/phpcpd": "^4.0",
         "squizlabs/php_codesniffer": "^3.3"
