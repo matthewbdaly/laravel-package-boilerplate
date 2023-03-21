@@ -9,6 +9,7 @@
         "orchestra/testbench": "^8.0",
         "orchestra/testbench-browser-kit": "^8.0",
         "pestphp/pest": "^2.0",
+        "pestphp/pest-plugin-laravel": "^2.0",
         "phpcompatibility/php-compatibility": "^9.3",
         "psalm/plugin-laravel": "^2.8",
         "slevomat/coding-standard": "^8.3",
