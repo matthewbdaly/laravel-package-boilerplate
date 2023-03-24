@@ -4,6 +4,7 @@
     "type": "library",
     "keywords": ["laravel","lumen"],
     "require-dev": {
+        "infection/infection": "^0.26.19",
         "matthewbdaly/artisan-standalone": "0.0.*",
         "mockery/mockery": "^1.5",
         "orchestra/testbench": "^8.0",
@@ -52,7 +53,8 @@
         "optimize-autoloader": true,
         "allow-plugins": {
             "dealerdirect/phpcodesniffer-composer-installer": true,
-            "pestphp/pest-plugin": true
+            "pestphp/pest-plugin": true,
+            "infection/extension-installer": true
         }
     },
     "extra": {
