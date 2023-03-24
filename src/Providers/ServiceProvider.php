@@ -9,14 +9,12 @@ use Illuminate\Support\ServiceProvider as BaseServiceProvider;
 /**
  * Service provider
  */
-class ServiceProvider extends BaseServiceProvider
+final class ServiceProvider extends BaseServiceProvider
 {
     /**
-     * Bootstrap the application services.
-     *
-     * @return void
+     * Bootstrap services.
      */
-    public function boot()
+    public function boot(): void
     {
         $this->loadMigrationsFrom(__DIR__ . '/../database/migrations');
         $this->loadRoutesFrom(__DIR__ . '/../../routes.php');
@@ -27,11 +25,9 @@ class ServiceProvider extends BaseServiceProvider
     }
 
     /**
-     * Register the application services.
-     *
-     * @return void
+     * Register services.
      */
-    public function register()
+    public function register(): void
     {
         // Placeholder
     }
